@@ -1,20 +1,22 @@
+//importação do react
 import React from 'react';
+//importação do componente users
 import Users from './Users';
 
 
 const Home = () => {
     return ( 
-        <>
-            <nav class="navbar navbar-expand-sm navbar-dark bg-primary fixed-top">
-                <div class="container-fluid ">
-                    <a class="navbar-brand " href="#">Lista de Usuarios</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+        <div>
+            <nav className="navbar navbar-expand-sm navbar-dark bg-primary fixed-top">
+                <div className="container-fluid ">
+                    <a className="navbar-brand " href="#">Lista de Usuarios</a>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse " id="navbarNav">
-                    <ul class="navbar-nav m-auto me-1">
-                        <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/cadastro">Cadastrar Novo Usuarios</a>
+                    <div className="collapse navbar-collapse " id="navbarNav">
+                    <ul className="navbar-nav m-auto me-1">
+                        <li className="nav-item">
+                        <a className="nav-link active" aria-current="page" href="/cadastro">Cadastrar Novo Usuarios</a>
                         </li> 
                         </ul>
                     </div>
@@ -22,7 +24,7 @@ const Home = () => {
             </nav>
 
             <Users />
-        </>
+        </div>
      );
 }
  
