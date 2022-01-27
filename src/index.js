@@ -14,7 +14,6 @@ ReactDOM.render(
 
       <Route path="/" element={<Home />} />
       <Route path="/cadastro" element={<Cadastros />} />
-      <Route path="/users" element={<Users />} />
       
 
     </Routes>
