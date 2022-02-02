@@ -1,6 +1,6 @@
-//importação do react
+//importação do react.
 import React from 'react';
-//importação do componente users
+//importação do componente users.
 import Users from './Users';
 
 
